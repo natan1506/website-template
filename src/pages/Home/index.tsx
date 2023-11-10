@@ -1,10 +1,13 @@
-import { ArrowRight } from "phosphor-react";
+import { ArrowRight } from "phosphor-react"
+
+import lamp from "../../assets/lottie/lamp.json";
+import Lottie from "lottie-react";
 
 export default function Home() {
   return (
     <div>
       <section>
-        <div className="grid grid-cols-2 w-full mx-auto mt-4 gap-2">
+        <div className="flex sm:flex-col md:flex-row items-center w-full mx-auto mt-4 gap-2">
           <div className="flex flex-col gap-3 items-start">
             <h1 className="text-4xl font-bold text-palette-gray">
               Combinamos estratégia, tecnologia e design para resolver problemas reais
@@ -17,7 +20,9 @@ export default function Home() {
               <ArrowRight />
             </button>
           </div>
-          <div></div>
+          <div>
+            <Lottie animationData={lamp} />
+          </div>
         </div>
       </section>
     </div>

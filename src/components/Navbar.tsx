@@ -35,8 +35,11 @@ export default function Navbar({ scrollPosition }: NavbarProps) {
         />
       </div>
       <div>
-        <Link to="/">
-          link1
+        <Link to="/" >
+          <button className="border-l border-r border-2 hover:bg-palette-blue">
+            link1
+
+          </button>
         </Link>
       </div>
     </nav>
