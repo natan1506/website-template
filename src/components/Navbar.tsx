@@ -28,15 +28,15 @@ export default function Navbar({ scrollPosition }: NavbarProps) {
   }, [scrollPosition]);
 
   return (
-    <nav className={[`w-full h border-b border-2 text-palette-gray flex flex-1 justify-between px-2 shadow-md backdrop-blur-md fixed top-0 items-center transition-all`, stateStyles.navbar].join(" ")}>
-      <div>
+    <nav className={[`w-full h border-b border-2 text-palette-gray flex flex-1 justify-between shadow-md backdrop-blur-md fixed top-0 items-center transition-all`].join(" ")}>
+      <div className={stateStyles.navbar}>
         <Code
           className={[`transition-all`, stateStyles.icon].join(" ")}
         />
       </div>
-      <div>
+      <div className="border-l-2">
         <Link to="/" >
-          <button className="border-l border-r border-2 hover:bg-palette-blue">
+          <button className="hover:bg-palette-blue px-4 py-2">
             link1
 
           </button>

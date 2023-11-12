@@ -5,6 +5,8 @@ import './styles/global.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <App />
+    <div className='bg-palette-white'>
+      <App />
+    </div>
   </React.StrictMode>,
 )
