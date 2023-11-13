@@ -23,7 +23,7 @@ function App() {
     <BrowserRouter>
       <div className="min-h-screen bg-palette-white">
         <Navbar scrollPosition={scrollPosition} />
-        <div className="h-[200%] p-4 mt-20">
+        <div className="h-[200%] pt-20">
           <Router />
         </div>
       </div>

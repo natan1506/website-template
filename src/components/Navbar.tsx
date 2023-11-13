@@ -28,7 +28,7 @@ export default function Navbar({ scrollPosition }: NavbarProps) {
   }, [scrollPosition]);
 
   return (
-    <nav className={[`w-full h border-b border-2 text-palette-gray flex flex-1 justify-between shadow-md backdrop-blur-md fixed top-0 items-center transition-all`].join(" ")}>
+    <nav className={[`w-full z-10 px-4 border-b border-2 text-palette-gray flex flex-1 justify-between shadow-md backdrop-blur-md fixed top-0 items-center transition-all`].join(" ")}>
       <div className={stateStyles.navbar}>
         <Code
           className={[`transition-all`, stateStyles.icon].join(" ")}
