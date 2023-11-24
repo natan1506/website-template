@@ -1,4 +1,3 @@
-import { Code } from "phosphor-react";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import WriteLogo from "../assets/logo-escrita.png"
